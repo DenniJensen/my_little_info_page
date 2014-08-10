@@ -8,10 +8,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
 </head>
 <body>
-  <!-- Nav -->
-<nav class="navbar navbar-default" role="navigation">
+
+<nav class="navbar navbar-inverse" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -24,25 +25,75 @@
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About Me</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        Image Container
-      </div>
-      <div class="col-md-6">
-        info box
-      </div>
+
+
+<div class="container">
+  <div class="personal-data row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <img id="profile-picture" class="img-rounded" src="img/profile_img.png" alt="Profile Picture">
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
+      <h1>Dennis Hägler</h1>
+      <ul class="personal-stats fa-ul">
+        <li>
+          <i class="fa-li fa fa-user"></i>
+          25 years old
+        </li>
+        <li>
+          <i class="fa-li fa fa-envelope"></i>
+          Dennis Hägler
+        </li>
+        <li>
+          <i class="fa-li fa fa-home" title="Location"></i>
+          Berlin, Germany
+        </li>
+        <li>
+          <i class="fa-li fa fa-heart" title="Location"></i>
+          software, software development, vim, smart solutions, clean code,
+          Ruby, open source, team  play ...
+        </li>
+        <li>
+          <i class="fa-li fa fa-graduation-cap" title="Location"></i>
+          Master's Student at
+          <a class="" href="http://www.fu-berlin.de/">FU-Berlin</a>
+        </li>
+        <li>
+          <i class="fa-li fa fa-suitcase" title="Location"></i>
+          Working Student at
+          <a class="" href="http://www.kaeuferportal.de/">Käuferportal</a>
+        </li>
+      </ul>
+      <section id="profile-links" class="row">
+        <ul class="list-inline">
+          <li class="logo-space col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <a href="https://github.com/DenniJensen">
+              <i class="my-icon fa fa-github-square" ></i>
+            </a>
+          </li>
+          <li class="logo-space col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <a href="https://twitter.com/DennisHaegler" >
+              <i class="my-icon fa fa-twitter" ></i>
+            </a>
+          </li>
+          <li class="logo-space col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <a href="https://www.xing.com/profiles/Dennis_Haegler">
+              <i class="my-icon fa fa-xing" ></i>
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
   </div>
+
+
+</div>
 
 </body>
 </html>

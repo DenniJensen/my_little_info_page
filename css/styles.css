@@ -8034,7 +8034,35 @@ button.close {
     display: none !important;
   }
 }
-/* line 5, ../sass/styles.sass */
+/* line 7, ../sass/styles.sass */
 .container {
-  width: 970px;
+  width: 830px;
+}
+/* line 9, ../sass/styles.sass */
+.container a {
+  color: #669900;
+}
+
+/* line 13, ../sass/styles.sass */
+.personal-data h1 {
+  margin-top: 0;
+}
+/* line 16, ../sass/styles.sass */
+.personal-data .personal-stats li {
+  margin-bottom: 5px;
+}
+
+/* line 20, ../sass/styles.sass */
+#profile-links .logo-space {
+  text-align: center;
+}
+/* line 22, ../sass/styles.sass */
+#profile-links .my-icon {
+  font-size: 50px;
+}
+
+/* line 25, ../sass/styles.sass */
+#profile-picture {
+  max-width: 100%;
+  max-height: 45vh;
 }
