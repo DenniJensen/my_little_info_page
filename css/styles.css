@@ -8036,7 +8036,7 @@ button.close {
 }
 /* line 7, ../sass/styles.sass */
 .container {
-  width: 830px;
+  max-width: 830px;
 }
 /* line 9, ../sass/styles.sass */
 .container a {
